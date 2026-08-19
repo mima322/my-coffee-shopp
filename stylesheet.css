@@ -1,0 +1,158 @@
+.body{
+margin:0px;
+padding:0px;    
+
+}
+
+
+.navbar{
+    background-color:#2B1B14 !important;
+    color:#F7F1E8;
+    text-align: center;
+    width:100%;
+
+    }
+
+nav ul{
+    list-style: none;
+     width:100%
+        padding: 0;
+        margin: 0;
+        text-align: center;
+
+}
+
+nav li{
+    list-style-type:none;
+    display:inline-block;
+    margin:5px;
+    padding:9px;
+    text-align: center;
+
+    
+}
+nav li a{
+    text-decoration: none;
+   font-size: 16px;
+}
+.fff{
+    text-align: center;
+    justify-content: center !important;
+       width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+
+}
+.card {
+    border:2px solid;
+    border-radius: 50%;
+    margin:10px;
+    padding :10px;
+
+}
+   .card-body {
+        width: 100%;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+
+    .card-text {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+.www{
+   margin:auto ;
+   text-align: center;
+   border:2px solid;
+   border-radius: 0 0 15px;
+   background-color:#D8E4BC !important;
+     
+}
+ .card {
+        width: 100%;
+        margin: 10px 0;
+        background-color: #D8E4BC;
+    }
+
+
+.qqq{
+    background-color:#F7F1E8;
+ 
+
+}
+.ggg{
+    
+    border:0 0 15px; color:#2B1B14;
+    transition:ease 0.5;
+     width: 100%;
+        margin: 10px 0;
+    
+}
+
+.ggg:hover{
+    transform:scale(1.1);
+    transition:ease 0.5s;
+}
+.card-body{
+    background-color: #F7F1E8;
+    color:#2B1B14
+}
+.ooo{
+    border-radius: 10px;
+    background-color: #F7F1E8;
+    color:#2B1B14;
+      
+}
+
+#aaa{
+    text-decoration: none;
+    color:#2B1B14;
+}
+
+
+
+@media (max-width: 768px){
+
+    .navbar {
+        width: 100%;
+        padding: 5px 0;
+    }
+
+    .navbar > ul > li {
+        display: inline-block;
+        margin: 3px;
+        padding: 5px;
+    }
+
+    .navbar > ul > li > a {
+        font-size: 14px;
+    }
+
+    .navbar .dropdown-menu {
+        width: 100%;
+        text-align: center;
+
+    }
+
+    /* CARDS */
+
+    .row > .col-4 {
+        width: 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .ggg {
+        width: 100%;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .card img {
+        width: 100%;
+        height: auto;
+    }
+    }
